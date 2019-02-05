@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add react@latest reat-dom@latest prop-types@latest
+  /usr/local/bin/node /usr/local/bin/yarn add extract-text-wepback-plugin
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/reat-dom: Not found
+  Error: https://registry.yarnpkg.com/extract-text-wepback-plugin: Not found
       at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66255:18)
       at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:129397:22)
       at Request.emit (events.js:182:13)
@@ -35,7 +35,8 @@ npm manifest:
     "license": "MIT",
     "scripts": {
       "serve": "live-server public/",
-      "build": "webpack",
+      "build:dev": "webpack",
+      "build:prod": "webpack -p --env production",
       "dev-server": "webpack-dev-server"
     },
     "dependencies": {
@@ -50,7 +51,7 @@ npm manifest:
       "node-sass": "^4.11.0",
       "normalize.css": "^8.0.1",
       "react": "16.0.0",
-      "react-dom": "16.0.0",
+      "react-dom": "16.0.1",
       "react-modal": "2.2.2",
       "sass-loader": "^7.1.0",
       "style-loader": "^0.23.1",
@@ -4788,10 +4789,10 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
     integrity sha1-63cFxNs2+1AbOqOP91lhaqD/luA=
   
-  react-dom@16.0.0:
-    version "16.0.0"
-    resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.0.0.tgz#9cc3079c3dcd70d4c6e01b84aab2a7e34c303f58"
-    integrity sha1-nMMHnD3NcNTG4BuEqrKn40wwP1g=
+  react-dom@16.0.1:
+    version "16.0.1"
+    resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.0.1.tgz#bd2fc18d2bb81645cb807bb27a03a14d8b796e6d"
+    integrity sha512-gGJNmuS0VpkJsNStpzplcgc4iuHJ2X8rjiiaY/5YfHrsAd2cw1JkMXD6Z1kBOed8rDUNrRYrnDYptnhFghFFhA==
     dependencies:
       fbjs "^0.8.16"
       loose-envify "^1.1.0"
