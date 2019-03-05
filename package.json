@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
-    "build:dev": "webpack",
-    "build:prod": "webpack -p --env production",
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production",
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
@@ -15,7 +15,7 @@
     "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
     "babel-cli": "^6.26.0",
-    "babel-loader": "7.1.1",
+    "babel-loader": "^8.0.5",
     "babel-plugin-transform-class-properties": "6.24.1",
     "css-loader": "^2.1.0",
     "install": "^0.12.2",
@@ -29,8 +29,20 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "validator": "^10.11.0",
-    "webpack": "^4.29.0",
+    "webpack": "^4.29.6",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14"
-  }
+  },
+  "description": "This is a React App that allows you to add items to a list. The program will select a random item on the list. The Indecision project uses react, javascript, css, and html.",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiffanyray/indecision.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tiffanyray/indecision/issues"
+  },
+  "homepage": "https://github.com/tiffanyray/indecision#readme"
 }
