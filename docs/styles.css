@@ -56,7 +56,8 @@ button:disabled {
   width: 100%;
   border-radius: 1.5rem;
   padding: 2.4rem;
-  margin-bottom: 1.6rem; }
+  margin-bottom: 1.6rem;
+  outline: none; }
 
 .big-button:disabled {
   opacity: .5; }
@@ -74,13 +75,15 @@ button:disabled {
   color: white;
   font-size: 1.6rem;
   font-weight: 500;
-  padding: 1.2rem; }
+  padding: 1.2rem;
+  outline: none; }
 
 .button--link {
   background: none;
   border: none;
   color: #b0f2c2;
-  padding: 0; }
+  padding: 0;
+  outline: none; }
 
 .container {
   max-width: 60rem;
