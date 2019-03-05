@@ -16,7 +16,7 @@ button:disabled {
   cursor: default; }
 
 .add-option-error {
-  color: #3b5454;
+  color: #b0f2c2;
   font-style: italic;
   font-size: 1.6rem;
   padding: 0 1.6rem 1.2rem 1.6rem;
