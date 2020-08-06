@@ -11,13 +11,13 @@
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
     "babel-cli": "^6.26.0",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.1.0",
     "babel-plugin-transform-class-properties": "6.24.1",
-    "css-loader": "^2.1.0",
+    "css-loader": "^2.1.1",
     "install": "^0.12.2",
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.5.0",
@@ -26,12 +26,12 @@
     "react": "16.0.0",
     "react-dom": "16.0.1",
     "react-modal": "2.2.2",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^7.3.1",
     "style-loader": "^0.23.1",
     "validator": "^10.11.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "description": "This is a React App that allows you to add items to a list. The program will select a random item on the list. The Indecision project uses react, javascript, css, and html.",
   "directories": {
